@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+ <EditText
+        android:id="@+id/host"
+        android:hint="Host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ <EditText
+        android:id="@+id/username"
+        android:hint="Username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_width="fill_parent"
+        android:password="true"
+        android:layout_height="wrap_content"/>
+        
+ <EditText
+        android:id="@+id/port"
+        android:hint="Port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ 
+<Button
+        android:id="@+id/emailButton"
+        android:text='Check Email'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+       
+<Button
+        android:id="@+id/logButton"
+        android:text='Logged in before? CLICK HERE!'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/> 
+        
+    
+</LinearLayout>
