@@ -1,0 +1,5 @@
+# An Android Email client to show you emails from AOL.com
+
+* Connect to an unsecure email port 143
+* Using fetch to get the latest headers
+* Using fetch then to get the body of the selected body
