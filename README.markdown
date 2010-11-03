@@ -4,4 +4,4 @@
 * Using fetch to get the latest headers
 * Using fetch then to get the body of the selected body
 * Still needs a bunch of updates
-* [@danest](http://twitter.com/danest/) 
+* Authors [@danest](http://twitter.com/danest/) & Ryan
